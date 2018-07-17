@@ -69,9 +69,6 @@ var config = {
 						title: "BBC",
 						url: "http://feeds.bbci.co.uk/news/rss.xml?edition=uk"
 					},
-					{	title: "Pink",
-						url: "https://www.pinknews.co.uk/feed/"
-					},
 				],
 				showSourceTitle: true,
 				showPublishDate: true
