@@ -39,7 +39,7 @@ var config = {
 		},
 		{
 			module: "compliments",
-			position: "lower_third"
+			position: "bottom_bar" //previously lower_third
 		},
 		{
 			module: "currentweather",
@@ -60,20 +60,20 @@ var config = {
 				appid: "c2ed5bf99cee968d4c1947a5ac6a7a9e"
 			}
 		},
-		{
-			module: "newsfeed",
-			position: "bottom_bar",
-			config: {
-				feeds: [
-					{
-						title: "BBC",
-						url: "http://feeds.bbci.co.uk/news/rss.xml?edition=uk"
-					},
-				],
-				showSourceTitle: true,
-				showPublishDate: true
-			}
-		},
+		//{
+		//	module: "newsfeed",
+		//	position: "bottom_bar",
+		//	config: {
+		//		feeds: [
+		//			{
+		//				title: "BBC",
+		//				url: "http://feeds.bbci.co.uk/news/rss.xml?edition=uk"
+		//			},
+		//		],
+		//		showSourceTitle: true,
+		//		showPublishDate: true
+		//	}
+		//},
 		{
     			module: 'MMM-NEO',
    			position: 'top_left',               // Best in left, right or center regions
