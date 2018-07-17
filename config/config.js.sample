@@ -45,7 +45,7 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check-o ",
-						url: "https://www.calendarlabs.com/ical-calendar/holidays/uk-holidays-75/"
+						url: "webcal://www.calendarlabs.com/ical-calendar/ics/75/UK_Holidays.ics"
 					}
 				]
 			}
