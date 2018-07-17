@@ -12,23 +12,68 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hey there sexy!"
+				"Hey there kid!",
+				"Mr. Stark... I don't feel so good...",
+				"You're doing great.",
+				"We have a hulk.",
+				"Activating instant kill.",
+				"I am groot.",
+				"Bowties are cool.",
+				"You're not gonna make the world any better by shouting at it!",
+				"Don't give up.",
+				"There’s always something to look at if you open your eyes!",
+				"Where's Francis?",
+				"Mr. Smith, I need you!",
+				"Jelly-bean?",
+				"Just be your natural, horrid self.",
+				"Don't. Even. Blink.",
+				"Always take a banana to a party.",
+				"Four or five moments, that's all it takes.",
+				"Nobody ever died from love.",
+				"That's slander.",
+				"I'm a big fan."
+				
 			],
 			morning: [
-				"Good morning, handsome!",
+				"Good morning, Nim!",
+				"Have a great day!",
 				"Enjoy your day!",
+				"Be you today.",
 				"How was your sleep?"
 			],
 			afternoon: [
-				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
+				"Hey dude!",
+				"Today is going to be a good day!",
+				"Have a good day!",
+				"Have you had lunch yet?"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
-			]
+				"Damn, son!",
+				"You hungry?",
+				"How was your day?",
+				"Rest is for the weary, sleep is for the dead."
+			],
+			day_sunny: [
+				"Remember sunglasses!",
+				"Agh! It burns!",
+				"Don't forget suncream!"
+			],
+			day_cloudy: [
+				"The weather is Scottish.",
+				"It's... grey."
+			],
+			snow: [
+				"Look. Outside.",
+				"Amazing weather alert!",
+				"Dude, it's snowing!",
+				"Get your snowboard!"
+			],
+			rain: [
+				"It's raining.",
+				"Might need an umbrella.",
+				"Bring a jacket today."
+			],
+			
 		},
 		updateInterval: 30000,
 		remoteFile: null,
