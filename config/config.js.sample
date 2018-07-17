@@ -37,18 +37,18 @@ var config = {
 			module: "clock",
 			position: "top_left"
 		},
-		{
-			module: "calendar",
-			header: "UK Holidays",
-			position: "top_left",
-			config: {
-				calendars: [
-					{
-						symbol: "calendar-check-o ",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/75/UK_Holidays.ics"
-					}
-				]
-			}
+		//{
+		//	module: "calendar",
+		//	header: "UK Holidays",
+		//	position: "top_left",
+		//	config: {
+		//		calendars: [
+		//			{
+		//				symbol: "calendar-check-o ",
+		//				url: "webcal://www.calendarlabs.com/ical-calendar/ics/75/UK_Holidays.ics"
+		//			}
+		//		]
+		//	}
 		},
 		{
 			module: "compliments",
@@ -70,7 +70,7 @@ var config = {
 			config: {
 				location: "Edinburgh",
 				locationID: "3333229",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				appid: "c2ed5bf99cee968d4c1947a5ac6a7a9e"
 			}
 		},
 		{
