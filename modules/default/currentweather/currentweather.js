@@ -15,7 +15,7 @@ Module.register("currentweather",{
 		locationID: false,
 		appid: "c2ed5bf99cee968d4c1947a5ac6a7a9e",
 		units: config.units,
-		updateInterval: 5 * 60 * 1000, // every 5 minutes
+		updateInterval: 10 * 60 * 1000, // every 10 minutes
 		animationSpeed: 1000,
 		timeFormat: config.timeFormat,
 		showPeriod: true,
