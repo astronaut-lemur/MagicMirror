@@ -36,7 +36,7 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar",
-				url: "http://www.calendarlabs.com/templates/ical/US-Holidays.ics",
+				url: "https://www.calendarlabs.com/ical-calendar/holidays/uk-holidays-75/",
 			},
 		],
 		titleReplace: {
