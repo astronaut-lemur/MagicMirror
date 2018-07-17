@@ -37,19 +37,6 @@ var config = {
 			module: "clock",
 			position: "top_left"
 		},
-		//{
-		//	module: "calendar",
-		//	header: "UK Holidays",
-		//	position: "top_left",
-		//	config: {
-		//		calendars: [
-		//			{
-		//				symbol: "calendar-check-o ",
-		//				url: "webcal://www.calendarlabs.com/ical-calendar/ics/75/UK_Holidays.ics"
-		//			}
-		//		]
-		//	}
-		//},
 		{
 			module: "compliments",
 			position: "lower_third"
@@ -89,6 +76,17 @@ var config = {
 				showSourceTitle: true,
 				showPublishDate: true
 			}
+		},
+		{
+    			module: 'MMM-NEO',
+   			position: 'top_left',               // Best in left, right or center regions
+    			config: { 
+				rotateInterval: 5 * 60 * 1000,  // New Object Rotation
+				useHeader: false,               // true if you want a header
+				header: "",
+				maxWidth: "275px",
+				animationSpeed: 3000,           // Image fades in and out
+    			}
 		},
 	]
 
