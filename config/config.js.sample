@@ -39,13 +39,13 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "UK Holidays",
 			position: "top_left",
 			config: {
 				calendars: [
 					{
 						symbol: "calendar-check-o ",
-						url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+						url: "https://www.calendarlabs.com/ical-calendar/holidays/uk-holidays-75/"
 					}
 				]
 			}
@@ -58,8 +58,8 @@ var config = {
 			module: "currentweather",
 			position: "top_right",
 			config: {
-				location: "New York",
-				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
+				location: "Edinburgh",
+				locationID: "3333229",  //ID from http://www.openweathermap.org/help/city_list.txt
 				appid: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
@@ -68,8 +68,8 @@ var config = {
 			position: "top_right",
 			header: "Weather Forecast",
 			config: {
-				location: "New York",
-				locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
+				location: "Edinburgh",
+				locationID: "3333229",  //ID from http://www.openweathermap.org/help/city_list.txt
 				appid: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
@@ -79,9 +79,12 @@ var config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					}
+						title: "BBC",
+						url: "http://feeds.bbci.co.uk/news/rss.xml?edition=uk"
+					},
+					{	title: "Pink",
+						url: "https://www.pinknews.co.uk/feed/"
+					},
 				],
 				showSourceTitle: true,
 				showPublishDate: true
