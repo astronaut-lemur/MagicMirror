@@ -78,9 +78,9 @@ var config = {
    	 		module: 'MMM-Launch',
     			position: 'top_left',               // Best in left or right region
     			config: {
-					showPix: "Yes",                 // No = No picture
+					showPix: "No",                 // No = No picture
 					showAgency: "Yes",              // No = Launch Agency not shown
-					showDescription: "No",          // Yes = full description of mission under picture
+					showDescription: "Yes",          // Yes = full description of mission under picture
 					useHeader: false,               // false if you don't want a header
 					header: "We have liftoff!",     // Any text you want. useHeader must be true
 					maxWidth: "300px",
@@ -93,7 +93,7 @@ var config = {
 				rotateInterval: 5 * 60 * 1000,  // New Object Rotation
 				useHeader: false,               // true if you want a header
 				header: "",
-				maxWidth: "275px",
+				maxWidth: "300px",
 				animationSpeed: 3000,           // Image fades in and out
     			}
 		},
