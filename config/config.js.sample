@@ -35,21 +35,21 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_right"
 		},
 		{
 			module: "compliments",
 			position: "bottom_bar" //previously lower_third
 		},
-		{
-			module: "currentweather",
-			position: "top_right",
-			config: {
-				location: "Edinburgh",
-				locationID: "3333229",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "e3ce31ec6a25c33eb60eb1dcdca7d957"
-			}
-		},
+		//{
+		//	module: "currentweather",
+		//	position: "top_right",
+		//	config: {
+		//		location: "Edinburgh",
+		//		locationID: "3333229",  //ID from http://www.openweathermap.org/help/city_list.txt
+		//		appid: "e3ce31ec6a25c33eb60eb1dcdca7d957"
+		//	}
+		//},
 		{
 			module: "weatherforecast",
 			position: "top_right",
