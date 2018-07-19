@@ -75,27 +75,26 @@ var config = {
 		//	}
 		//},
 		{
-   	 		module: 'MMM-Launch',
-    			position: 'top_left',               // Best in left or right region
-    			config: {
-					showPix: "No",                 // No = No picture
-					showAgency: "Yes",              // No = Launch Agency not shown
-					showDescription: "Yes",          // Yes = full description of mission under picture
-					useHeader: false,               // false if you don't want a header
-					header: "We have liftoff!",     // Any text you want. useHeader must be true
-					maxWidth: "300px",
-   		 	}
-		},
-		{
     			module: 'MMM-NEO',
    			position: 'top_left',               // Best in left, right or center regions
     			config: { 
 				rotateInterval: 5 * 60 * 1000,  // New Object Rotation
 				useHeader: false,               // true if you want a header
 				header: "",
-				maxWidth: "300px",
+				maxWidth: "275px",
 				animationSpeed: 3000,           // Image fades in and out
     			}
+		},
+		{
+   	 		module: 'MMM-Launch',
+    			position: 'top_left',               // Best in left or right region
+    			config: {
+				showPix: "No",                 // No = No picture
+				showAgency: "Yes",              // No = Launch Agency not shown
+				showDescription: "Yes",          // Yes = full description of mission under picture
+				useHeader: false,               // false if you don't want a header
+				header: "We have liftoff!",     // Any text you want. useHeader must be true					maxWidth: "275px",
+   		 	}
 		},
 	]
 
