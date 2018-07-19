@@ -9,10 +9,10 @@ Module.register("MMM-Launch", {
 
     // Module config defaults.
     defaults: {
-        showPix: "Yes",                 // No = no pictures display
+        showPix: "No",                 // No = no pictures display
 	showAgency: "Yes",              // No = Launch Agency not shown
-	showDescription: "No",          // Yes for full descriptive text under picture
-        useHeader: true,                // false if you don't want a header
+	showDescription: "Yes",          // Yes for full descriptive text under picture
+        useHeader: false,                // false if you don't want a header
         header: "We have liftoff!",     // Any text you want
         maxWidth: "250px",
         rotateInterval: 30 * 1000,      // 30 seconds
